@@ -49,7 +49,7 @@ SingleChildScrollView(
                   keyboardType: TextInputType.emailAddress,
                   decoration: InputDecoration(
                     prefixIcon: const Icon(Icons.email),
-                    suffixText: 'hello',
+                    
                     labelText: "Enter Email",
                     labelStyle: const TextStyle(color: Colors.grey), // ✅ visible label
                     enabledBorder: OutlineInputBorder(

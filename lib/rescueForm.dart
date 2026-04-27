@@ -61,9 +61,8 @@ class RescueForm extends StatelessWidget {
               // SUBMIT BUTTON
               ElevatedButton(
                 onPressed: () {
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(content: Text("Rescue Request Submitted")),
-                  );
+                  Navigator.push(context, MaterialPageRoute(builder: (context) =>  RescueListScreen()));
+                  
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.red,
@@ -73,12 +72,8 @@ class RescueForm extends StatelessWidget {
                   "Submit",
                   style: TextStyle(color: Colors.white),
                 ),
-              ),
-
-            ElevatedButton(onPressed: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context) =>  RescueListScreen()));
-            }, child:Text("next")),
-          
+             
+              )
             ],
        
         ))

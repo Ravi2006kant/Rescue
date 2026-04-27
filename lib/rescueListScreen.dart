@@ -19,7 +19,19 @@ class RescueListScreen extends StatelessWidget {
           Card(
             child: ListTile(
               leading: CircleAvatar(child: Icon(Icons.person)),
-              
+              title: Text("Amit"),
+              subtitle: Text("Doctor"),
+              trailing: Icon(Icons.call),
+            ),
+          ),
+
+          
+
+          Card(
+            child: ListTile(
+              leading: CircleAvatar(child: Icon(Icons.person)),
+              title: Text("Ankit"),
+              subtitle: Text("Accident Help"),
               trailing: Icon(Icons.call),
             ),
           ),
@@ -37,8 +49,17 @@ class RescueListScreen extends StatelessWidget {
           Card(
             child: ListTile(
               leading: CircleAvatar(child: Icon(Icons.person)),
-              title: Text("Ankit"),
-              subtitle: Text("Accident Help"),
+              title: Text("Rina"),
+              subtitle: Text("Medical Help"),
+              trailing: Icon(Icons.call),
+            ),
+          ),
+
+          Card(
+            child: ListTile(
+              leading: CircleAvatar(child: Icon(Icons.person)),
+              title: Text("Sunny"),
+              subtitle: Text("Hospital"),
               trailing: Icon(Icons.call),
             ),
           ),
